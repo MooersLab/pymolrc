@@ -12,14 +12,15 @@ set valence, off
 hide cartoon
 show sticks
 
-### BEGIN ATSAS Installer ###
-os.environ["PATH"] += os.pathsep + "/Users/blaine/ATSAS-3.0.2-0/bin"
-### END ATSAS Installer ###
 
 ### BEGIN ATSAS Installer ###
 os.environ["PATH"] += os.pathsep + "/Users/blaine/ATSAS-3.0.3-1/bin"
 ### END ATSAS Installer ###
 
+
+
+# Enlargening the font size in the GUI.
+# Map the teach() function to the F5 key.
 # python
 # size = 10
 #
