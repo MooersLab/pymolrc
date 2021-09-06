@@ -1,0 +1,39 @@
+# run /Users/blaine/Scripts/PyMOLScripts/pymolshortcutsNoDateTime.py
+run /Users/blaine/Scripts/PyMOLScripts/pymolshortcuts.py
+
+# scale for fonts in internal gui
+# set display_scale_factor, 3 
+
+# to enable writing very large images
+set hash_max, 2000 
+set bg_rgb, white
+set stick_radius, 0.125
+set valence, off
+hide cartoon
+show sticks
+
+### BEGIN ATSAS Installer ###
+os.environ["PATH"] += os.pathsep + "/Users/blaine/ATSAS-3.0.2-0/bin"
+### END ATSAS Installer ###
+
+### BEGIN ATSAS Installer ###
+os.environ["PATH"] += os.pathsep + "/Users/blaine/ATSAS-3.0.3-1/bin"
+### END ATSAS Installer ###
+
+# python
+# size = 10
+#
+# def teach():
+#   global size
+#
+#   if size==20:
+#     size=10
+#   elif size==10:
+#     size=20
+#
+#   s = _ext_gui.skin
+#   s.text.configure(font=(s.font, size))
+#
+# cmd.set_key("F5", teach)
+# python end
+
